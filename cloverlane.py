@@ -38,9 +38,9 @@ def checkAddToCart(urls):
             brojac += 1
             outSheet.write(brojac, 0, i)
             outSheet.write(brojac, 1, "Add to bag does not exist on this page.")
-            outSheet.write(brojac, 2, "Seek reference for bug in C:\\Users\\Korisnik005\\Documents\\Python files\\PBI")
+            outSheet.write(brojac, 2, "Seek reference for bug in C:\\Users\\Korisnik005\\Documents\\Zadaca za git\\PBI")
             outWorkbook.close()
-            path = 'C:\\Users\\Korisnik005\\Documents\\Python Files'
+            path = 'C:\\Users\\Korisnik005\\Documents\\Zadaca za git'
             DateString = datetime.datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
             os.chdir(path)
             NewFolder = 'PBI_' + DateString
